@@ -31,18 +31,18 @@
 </p>
 <hr>
 
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/shonilbhide/dollar_bot)
+[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/abhi934/CSC510_Project3_dollar_bot)
 
 ![MIT license](https://img.shields.io/badge/License-MIT-green.svg)
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
-[![GitHub contributors](https://img.shields.io/github/contributors/shonilbhide/dollar_bot)](https://github.com/shonilbhide/dollar_bot/graphs/contributors)
+[![GitHub contributors](https://img.shields.io/github/contributors/shonilbhide/dollar_bot)](https://github.com/abhi934/CSC510_Project3_dollar_bot/graphs/contributors)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10015948.svg)](https://zenodo.org/records/10015948)
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/KRJsvuprWQqWTJMZXoedkH/S11gsHj3tEGpX8YLaeYmJ5/tree/main.svg?style=svg&circle-token=03704a79749569bc04a53ce05296fb34003e4713)](https://dl.circleci.com/status-badge/redirect/circleci/KRJsvuprWQqWTJMZXoedkH/S11gsHj3tEGpX8YLaeYmJ5/tree/main)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 
-[![GitHub issues](https://img.shields.io/github/issues/shonilbhide/dollar_bot)](https://github.com/shonilbhide/dollar_bot/issues)
-[![GitHub closed issues](https://img.shields.io/github/issues-closed/shonilbhide/dollar_bot)](https://github.com/shonilbhide/dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
+[![GitHub issues](https://img.shields.io/github/issues/abhi934/CSC510_Project3_dollar_bot)](https://github.com/abhi934/CSC510_Project3_dollar_bot/issues)
+[![GitHub closed issues](https://img.shields.io/github/issues-closed/abhi934/CSC510_Project3_dollar_bot)](https://github.com/abhi934/CSC510_Project3_dollar_bot/issues?q=is%3Aissue+is%3Aclosed)
 
 <hr>
 
@@ -70,11 +70,6 @@ DollarSplitBot: Where simplicity meets financial harmony at your fingertips.
 
 To demonstrate our application's functionality and showcase its working examples, we have produced a YouTube video for the DollarSplitBot project. In this video, we showcase that the system operates as intended. You can view the video by clicking on the following link:  [YouTube Link](https://youtu.be/JT06PTMHz7Y) 
 
-## What is new in this version?
-
-Checkout the [this documentation](docs/Update_Version.pdf)
-## Installation
-
 The below instructions can be followed in order to set-up this bot at your end in a span of few minutes! Let's get started:
 
 1. Clone this repository to your local system.
@@ -89,12 +84,6 @@ The below instructions can be followed in order to set-up this bot at your end i
  https://desktop.telegram.org/
  ```
 
-Steps to install Chrome Extension:
-
-1. Go to Extensions -> Enable Developer mode
-2. Click on Load Unpacked
-3. Select the pyscript-local-runtime folder from the repo
-
 ## How to run?
 
 1. In Telegram, search for "BotFather". Click on "Start", and enter the following command:
@@ -105,25 +94,23 @@ Steps to install Chrome Extension:
 
 3. BotFather will now confirm the creation of your bot and provide a TOKEN to access the HTTP API - copy and save this token for future use.
 
-4. In the repo directory (where you cloned it), run these commands to (i) grant execution access to a bash script, and (ii) execute that bash script to run the Telegram Bot:
+4. In the repo directory, find a file named user.properties and assign your API token to the 'api_token' variable.
+
+5. Open the 'code.py' file present in the 'code' folder in the repo directory in a text editor and pass the path address to the 'user.properties' file as the first parameter to the 'open()' function call (line 30).
+
+6. Open the terminal in the 'code' folder and run the code.py file using the following command:
 ```
-   chmod a+x run.sh
-   ./run.sh
+  python code.py
 ```
-   
-(OR)
-```
-   chmod a+x run.sh
-   bash run.sh
-```
-```Note```: It will ask you to paste the API token you received from Telegram in step 4.
 A successful run will generate a message on your terminal that says "TeleBot: Started polling." 
 
 5. In the Telegram app, search for your newly created bot by entering the username and open the same. Now, on Telegram, enter the "/start" or "menu" command, and you are all set to track your expenses!
 
-### Run Automatically at Startup
+Steps to install Chrome Extension:
 
-To run the script automatically at startup / reboot, simply add the `.run_forever.sh` script to your `.bashrc` file, which executes whenever you reboot your system.
+1. Go to Extensions -> Enable Developer mode
+2. Click on Load Unpacked
+3. Select the pyscript-local-runtime folder from the repo
 
 ## Configuring Email Credentials for SMTP: Sending Emails from Your Account
 
@@ -185,18 +172,18 @@ Certainly, you can watch this video [YouTube Link](https://youtu.be/JT06PTMHz7Y)
 
 This project uses various automated analysis tools like 
 - pylint and flask8 for code formating
-- pytest for tesing
+- pytest for testing
 - coverage.py for code coverage
 - Travis CI for automated testing
   
 ## License
 
-This project is licensed under the terms of the MIT license. Please check [License](https://github.com/shonilbhide/dollar_bot/blob/main/LICENSE) for more details.
+This project is licensed under the terms of the MIT license. Please check [License](https://github.com/abhi934/CSC510_Project3_dollar_bot/blob/main/LICENSE) for more details.
 
 
 ## Code Documentation
 
-Checkout the [docs](https://github.com/shonilbhide/dollar_bot/tree/main/docs)
+Checkout the [docs](https://github.com/abhi934/CSC510_Project3_dollar_bot/tree/main/docs)
 
 ## Version Specifications
 The current release of the project has the following versions:
@@ -206,38 +193,35 @@ The current release of the project has the following versions:
 
 ## How to Contribute
 
-We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/shonilbhide/dollar_bot/blob/main/CONTRIBUTING.md)
+We would be happy to receive contributions! If you'd like to, please go through our [CONTRIBUTING.md](https://github.com/abhi934/CSC510_Project3_dollar_bot/blob/main/CONTRIBUTING.md)
 
-For any feedback, issues, or bug reports, please create an issue [here](https://github.com/shonilbhide/dollar_bot/issues/new).
+For any feedback, issues, or bug reports, please create an issue [here](https://github.com/abhi934/CSC510_Project3_dollar_bot/issues/new).
 
 ## Depriciated Libraries
 - "The parameter "none_stop" is deprecated. Use "non_stop" instead."
 ## Future RoadMap
 
-- More content can be added for the way notifications can be displayed on the user front. This can be done to make the UI more interactive.
 - Recurring expenses feature can be added for faster addition of expenses instead of following the whole process of everytime.
 - This application can be integrated with a group chat to track expenses of a group.
 - A better model can be implemented to forecast the budgets and expenses for future.
 - Make our bot support multiple languages, and not just english so that it might be helpful in the other regions of the world.
 -  Integrate the bot with financial services, like bank APIs, for real-time expense tracking and account balance updates.
-- Implement a reminder system to notify users of recurring expenses, upcoming bills, or when they need to settle debts.
 
-
-## Number of projects and Users associated with the project
+<!-- ## Number of projects and Users associated with the project
 Here is the list of projects and the users associated with the project:
 - Project 1[Project1] (https://github.com/shonilbhide/dollar_bot) and users: Shonil_Bhide, Rutuja_Rashinkar, Sakshi_Basapure Akshada_Malpure
 - Project 2 [Project2] (https://github.com/usmanwardag/dollar_bot) and users: Usman_Khan, Aakriti_Aakriti, Suneha_Bose, Muskan_Gupta, Kriti_Khullar
 - Project 3 [Project3] (https://github.com/sak007/MyDollarBot-BOTGo) and users: Athithya, Subramanian, Ashok, Zunaid, Rithik, Dev, Prakruthi, Radhika, Rohan, Sunidhi
-- Project 4 [Project4] (https://github.com/deekay2310/MyDollarBot) and users:Dev, Prakruthi, Radhika, Rohan, Sunidhi 
+- Project 4 [Project4] (https://github.com/deekay2310/MyDollarBot) and users:Dev, Prakruthi, Radhika, Rohan, Sunidhi  -->
 
 
 ## Contributors
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/shonilbhide"><img src="https://avatars.githubusercontent.com/u/51792152?s=96&v=4" width="75px;" alt=""/><br /><sub><b>Shonil bhide</b></sub></a></td>
-    <td align="center"><a href="https://github.com/sakshibasapure"><img src="https://avatars.githubusercontent.com/u/40641044?v=4" width="75px;" alt=""/><br /><sub><b>Sakshi Basapure</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/rutuja-39"><img src="https://avatars.githubusercontent.com/u/59025269?v=4" width="75px;" alt=""/><br /><sub><b>Rutuja Rashinkar</b></sub></a><br /></td>
-    <td align="center"><a href="https://github.com/agmalpur"><img src="https://avatars.githubusercontent.com/u/144184451?v=4" width="75px;" alt=""/><br /><sub><b>Akshada Malpure</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Chinzzii"><img src="https://avatars.githubusercontent.com/u/72612935?v=4" width="75px;" alt=""/><br /><sub><b>Chinmay Singhania</b></sub></a></td>
+    <td align="center"><a href="https://github.com/abhi934"><img src="https://avatars.githubusercontent.com/u/53390879?v=4" width="75px;" alt=""/><br /><sub><b>Abhishek Desai</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Praful-Joshi"><img src="https://avatars.githubusercontent.com/u/87381105?v=4" width="75px;" alt=""/><br /><sub><b>Praful Joshi</b></sub></a><br /></td>
+    <td align="center"><a href="https://github.com/Rishi2812"><img src="https://avatars.githubusercontent.com/u/56027963?v=4" width="75px;" alt=""/><br /><sub><b>Rishi Dange</b></sub></a><br /></td>
   </tr>
 </table>
 
@@ -249,4 +233,4 @@ Here is the list of projects and the users associated with the project:
 - Thank you to the ⭐️[Telegram bot](https://github.com/python-telegram-bot/python-telegram-bot)
 
 ## Contact Us
-In case of any queries, kindly contact us on: <b>csc510group32@gmail.com</b>
+In case of any queries, kindly contact us on: <b>pjoshi7@ncsu.edu</b>
