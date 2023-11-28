@@ -37,7 +37,7 @@
 [![Platform](https://img.shields.io/badge/Platform-Telegram-blue)](https://desktop.telegram.org/)
 ![GitHub](https://img.shields.io/badge/Language-Python-blue.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/shonilbhide/dollar_bot)](https://github.com/abhi934/CSC510_Project3_dollar_bot/graphs/contributors)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10015948.svg)](https://zenodo.org/records/10015948)
+[![DOI](https://zenodo.org/badge/721227336.svg)](https://zenodo.org/doi/10.5281/zenodo.10211948)
 [![CircleCI](https://dl.circleci.com/status-badge/img/circleci/KRJsvuprWQqWTJMZXoedkH/S11gsHj3tEGpX8YLaeYmJ5/tree/main.svg?style=svg&circle-token=03704a79749569bc04a53ce05296fb34003e4713)](https://dl.circleci.com/status-badge/redirect/circleci/KRJsvuprWQqWTJMZXoedkH/S11gsHj3tEGpX8YLaeYmJ5/tree/main)
 [![codecov](https://codecov.io/gh/usmanwardag/dollar_bot/branch/main/graph/badge.svg?token=PYAWX95R67)](https://codecov.io/gh/usmanwardag/dollar_bot)
 
