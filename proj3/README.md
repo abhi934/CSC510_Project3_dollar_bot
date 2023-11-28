@@ -1,3 +1,6 @@
+## Group 60
+Group Members - Praful Joshi, Abhishek Desai, Chinmay Singhania, Rishi Dange
+
 ## Enhancements
 1. Added a feature to Set Reminders for the due expenses.
 2. Developed Android application.
